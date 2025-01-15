@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button_black_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Чёрный текст"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_red_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Красный текст"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_text_size_8sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Размер текста 8sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_text_size_24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Размер текста 24sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_white_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Белый фон"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button_yellow_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Жёлтый фон"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
